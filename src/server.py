@@ -156,7 +156,7 @@ class Hacker(LineReceiver):
             return True
     def play(self,line):
         if self.gamestate == "LAUNCH":
-            #display some random text
+            #display some random text (WRITE THIS!)
             self.transport.send('\x1B[2J')
             self.gamestate = "TERMINAL"
         elif self.gamestate == "TERMINAL":
